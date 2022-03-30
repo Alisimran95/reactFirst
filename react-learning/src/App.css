@@ -6,11 +6,28 @@
 .grid-container{
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top: 0px;
+  right: 60px;
 }
 .grid-box{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+}
+.change-data-btn{
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  right:0px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  color:white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
 }
 
 .card{
@@ -43,4 +60,31 @@
 .btn:hover{
   background-color: blueviolet;
   color: white;
+}
+
+.box{
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+}
+
+.card-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 20px;
+  top: 20px;
+}
+.change-card-btn{
+  background-color: rebeccapurple;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
 }
