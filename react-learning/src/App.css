@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.grid-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.grid-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 12px;
+  width: 200px;
+  height: 300px;
+  margin-left: 20px;
+}
+#span{
+  color:blue;
+  font-style: italic;
+}
+.progress{
+  display: flex;
+  justify-content: space-around;
+}
+.btn{
+  padding: 10px;
+  background-color: aqua;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: blueviolet;
+  color: white;
+}
